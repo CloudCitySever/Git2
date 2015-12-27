@@ -1,0 +1,142 @@
+[10:13:14] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[10:13:14] [Server thread/INFO]: Loading properties
+[10:13:14] [Server thread/INFO]: Default game type: SURVIVAL
+[10:13:14] [Server thread/INFO]: Generating keypair
+[10:13:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:13:14] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.4-SNAPSHOT)
+[10:13:15] [Server thread/ERROR]: Could not load 'plugins\mcpc-plus-1.4.7-R1.1-SNAPSHOT-f534-247.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 9 more
+[10:13:15] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.6.0
+[10:13:15] [Server thread/INFO]: [Essentials] Loading Essentials vPre2.13.1.2
+[10:13:15] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.13.1.2
+[10:13:15] [Server thread/INFO]: [Lockette] Loading Lockette v1.7.12
+[10:13:15] [Server thread/INFO]: [Vault] Loading Vault v1.2.31-b411
+[10:13:15] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.13.1.2
+[10:13:15] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.13.1.2
+[10:13:15] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0 (2.12.1) (Phoenix)
+[10:13:15] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vPre2.13.1.2
+[10:13:15] [Server thread/INFO]: [AncientGates] Loading AncientGates v1.8.0
+[10:13:15] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.4
+[10:13:15] [Server thread/INFO]: [Residence] Loading Residence v2.6.6.6
+[10:13:15] [Server thread/INFO]: [Vault] Enabling Vault v1.2.31-b411
+[10:13:15] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy found: Waiting
+[10:13:15] [Server thread/INFO]: [Vault] [Vault][Permission] GroupManager found: Waiting
+[10:13:15] [Server thread/INFO]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
+[10:13:15] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager found: Waiting
+[10:13:15] [Server thread/INFO]: [Vault] [Vault] Enabled Version 1.2.31-b411
+[10:13:15] [Thread-7/WARN]: Exception in thread "Thread-7" 
+[10:13:15] [Thread-7/WARN]: org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:53)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:30)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+[10:13:15] [Thread-7/WARN]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+[10:13:15] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+[10:13:15] [Thread-7/WARN]: 	... 5 more
+[10:13:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:13:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:13:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:13:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:13:15] [Server thread/INFO]: Preparing level "world"
+[10:13:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1673699224318039179)
+[10:13:16] [Server thread/INFO]: Preparing spawn area: 46%
+[10:13:17] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1673699224318039179)
+[10:13:18] [Server thread/INFO]: Preparing spawn area: 60%
+[10:13:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1673699224318039179)
+[10:13:19] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.6.0
+[10:13:19] [Server thread/ERROR]: Error occurred while enabling ClearLag v2.6.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Entity
+	at me.minebuilders.clearlag.Clearlag.addListeners(Clearlag.java:114) ~[?:?]
+	at me.minebuilders.clearlag.Clearlag.onEnable(Clearlag.java:67) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:324) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:439) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:375) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:342) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:319) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:275) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:175) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:67) ~[craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit-1.7.2-R0.4.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_51]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_51]
+	... 13 more
+[10:13:19] [Server thread/INFO]: [Essentials] Enabling Essentials vPre2.13.1.2
+[10:13:19] [Server thread/INFO]: Using locale zh
+[10:13:20] [Server thread/INFO]: Using locale zh
+[10:13:20] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[10:13:20] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[10:13:20] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[10:13:20] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.13.1.2
+[10:13:20] [Server thread/INFO]: [Lockette] Enabling Lockette v1.7.12
+[10:13:20] [Server thread/INFO]: [Lockette] Version 1.7.12 is being enabled!  Yay!  (Core version 1.3.7)
+[10:13:20] [Server thread/INFO]: [Lockette] Detected craftbukkit build [3024] ok.
+[10:13:20] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154]
+[10:13:20] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
+[10:13:20] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
+[10:13:20] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
+[10:13:20] [Server thread/INFO]: [Lockette] Ready to protect your containers.
+[10:13:20] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.13.1.2
+[10:13:20] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.13.1.2
+[10:13:20] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0 (2.12.1) (Phoenix)
+[10:13:20] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[10:13:20] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[10:13:20] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[10:13:20] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[10:13:20] [Server thread/INFO]: GroupManager version 2.0 (2.12.1) (Phoenix) is enabled!
+[10:13:20] [Server thread/INFO]: [Lockette] Enabled link to plugin GroupManager for Groups, version 2.0 (2.12.1) (Phoenix)
+[10:13:20] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[10:13:20] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[10:13:20] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[10:13:20] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vPre2.13.1.2
+[10:13:20] [Server thread/INFO]: [AncientGates] Enabling AncientGates v1.8.0
+[10:13:20] [Server thread/INFO]: [AncientGates v1.8.0] Loading conf from disk
+[10:13:20] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.4
+[10:13:20] [Server thread/INFO]: [QuickShop] Hooking Vault
+[10:13:20] [Server thread/INFO]: [QuickShop] Starting item scheduler
+[10:13:20] [Server thread/INFO]: [QuickShop] Limit cfg found...
+[10:13:20] [Server thread/INFO]: [QuickShop] Limits.use: false
+[10:13:20] [Server thread/INFO]: [QuickShop] {quickshop=0, quickshop.vip=20}
+[10:13:20] [Server thread/INFO]: [QuickShop] Loading shops from database...
+[10:13:20] [Server thread/INFO]: [QuickShop] Loaded 0 shops.
+[10:13:20] [Server thread/INFO]: Cleaning purchase messages from database that are over a week old...
+[10:13:20] [Server thread/INFO]: [QuickShop] Registering Listeners
+[10:13:20] [Server thread/INFO]: [QuickShop] Metrics started.
+[10:13:20] [Server thread/INFO]: [QuickShop] QuickShop loaded!
+[10:13:20] [Server thread/INFO]: [Residence] Enabling Residence v2.6.6.6
+[10:13:20] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:GroupManager
+[10:13:20] [Server thread/INFO]: [Residence] Failed to update language file: Chinese.yml
+[10:13:20] [Server thread/INFO]: [Residence] Failed to update language file: Brazilian.yml
+[10:13:20] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[10:13:20] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[10:13:20] [Server thread/INFO]: [Residence] WorldEdit NOT found!
+[10:13:20] [Server thread/INFO]: [Residence] Enabled! Version 2.6.6.6 by bekvon
+[10:13:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:13:21] [Server thread/INFO]: Done (5.288s)! For help, type "help" or "?"
+[10:13:21] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[10:13:21] [Server thread/INFO]: [AncientGates v1.8.0] Loading gates from disk
+[10:13:21] [Server thread/INFO]: [AncientGates v1.8.0] Loading gates into memory
+[10:13:21] [Server thread/INFO]: [AncientGates v1.8.0] Enabled
+[10:13:22] [pool-3-thread-11/INFO]: [Vault] Checking for Updates:
+[10:13:22] [pool-3-thread-11/WARN]: [Vault] Stable Version: 1.5.6 is out! You are still running version: 1.2.31
+[10:13:22] [pool-3-thread-11/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[10:13:38] [Thread-4/INFO]: Stopping server
